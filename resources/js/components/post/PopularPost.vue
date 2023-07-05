@@ -15,7 +15,7 @@
                     </a>
                 </li>
             </ul>
-            <div role="alert" class="alert alert-info mt-2 validation-error responsive-06-em">
+            <div v-else role="alert" class="alert alert-info mt-2 validation-error responsive-06-em">
                 You need to open at least one post so we can show what's trending.
             </div>
         </div>
