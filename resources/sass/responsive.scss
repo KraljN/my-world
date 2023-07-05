@@ -1,0 +1,103 @@
+// Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    .main{
+        min-height: 100vh!important;
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    #confirmPost{
+        margin-top: 200%;
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    #confirmPost{
+        margin-top: 100%;
+    }
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    #confirmPost{
+        margin-top: 100%;
+    }
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    td, th{
+        @include font-size(.7em !important);
+    }
+    input::placeholder {
+        @include font-size(.9em !important);
+    }
+    input, .validation-error {
+        @include font-size(.5em !important);
+    }
+    .responsive-06-em{
+        @include font-size(.6em !important);
+    }
+    .responsive-07-em{
+        @include font-size(.7em !important);
+    }
+    .responsive-08-em{
+        @include font-size(.8em !important);
+    }
+    .responsive-09-em{
+        @include font-size(.9em !important);
+    }
+    .responsive-10-em{
+        @include font-size(1em !important);
+    }
+
+    .nav-link{
+        @include font-size(.6em !important);
+    }
+    .social, .aside-list, h5, .card-header{
+        @include font-size(.8em !important);
+    }
+    footer, label, p{
+        @include font-size(.7em !important);
+    }
+    #post-text{
+        @include font-size(.7em !important);
+    }
+    .heading{
+        @include font-size(.9em !important);
+    }
+    h1{
+        @include font-size(1em !important);
+    }
+    .blog-content-body{
+        h2{
+            @include font-size(.8em !important);
+        }
+    }
+    .like, .dislike, .post-meta{
+        @include font-size(.6em !important);
+    }
+    .comment-list li .vcard img{
+        width: 30px!important;
+        float: right!important;
+        margin-right: 20px;
+    }
+
+    #confirmPost{
+        margin-top: 60%;
+    }
+
+    select{
+        @include font-size(.5em!important);
+    }
+
+    option{
+        @include font-size(.9em!important);
+    }
+
+}
