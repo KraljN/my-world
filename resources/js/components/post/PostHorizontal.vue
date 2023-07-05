@@ -1,8 +1,8 @@
 <template>
     <section>
         <div class="blog-entries post-entry-horzontal">
-            <a :href="public_path + '/posts/' + post.id" class="text-decoration-none border border-start-0">
-                <div class="row d-flex">
+            <a :href="public_path + '/posts/' + post.id" class="text-decoration-none border border-start-0 w-100 m-0">
+                <div class="row d-flex w-100">
                     <div class="col-md-5 mb-4">
                         <img class="small-post-images" :src="public_path + '/assets/img/' + post.image.src"
                              :alt="post.image.src"/>
