@@ -41,12 +41,6 @@ class MenuSeeder extends Seeder
                 'created_at' => now()
             ],
             [
-                'order' => 50,
-                'route' => '/categories/4',
-                'menu_party_id' => 6,
-                'created_at' => now()
-            ],
-            [
                 'order' => 60,
                 'route' => '/contact',
                 'menu_party_id' => 2,
